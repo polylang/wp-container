@@ -1,0 +1,6 @@
+plugins/**
+# This is used to preserve the folder structure
+!plugins/.gitignore
+# Same here
+themes/**
+!themes/.gitignore 
