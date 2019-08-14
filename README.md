@@ -10,7 +10,7 @@ You need to have a local installation of the [Docker Engine](https://docs.docker
 
 1. Clone this directory.
 2. Copy the plugins and themes you want to use in the `plugins` and `themes` folders respectively.
-3. In a terminal, enter the following command from inside the `wp-container` folder: `docker-compose up`. (Note: If your OS is a Linux distribution, you may have to run this command with root privileges, check for details in [docker's official documentation](https://docs.docker.com/install/linux/linux-postinstall/) ).
+3. In a terminal, enter the following command from inside the `wp-container` folder: `docker-compose up -d`. (Note: If your OS is a Linux distribution, you may have to run this command with root privileges, check for details in [docker's official documentation](https://docs.docker.com/install/linux/linux-postinstall/) ).
 4. Open your browser and browse the following url: `http://localhost:8000`
 5. Follow the steps of WordPress' 'five minutes installation'.
 6. Go to *Plugins > Installed Plugins* and activate the plugins you want to use.
